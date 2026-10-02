@@ -1,0 +1,49 @@
+Features:
+    - User Login and Datetime Logs
+    - Password Vault and Pseudo-Database
+    - CLI Calculator
+    - Minigames!!!!
+    - String Manipulation App
+
+
+User Login and Datetime Logs:
+    Basic Authentication will be used that will be stored on a pseduo-database
+    the pseudo database will be stored as a JSON with the following Object set
+    {
+        name: "NAME",
+        password: "PASSWORD",
+    }
+    for which it will be sent to a file named users.txt where the program will attempt
+    to read the txt file and parse it into a json then the program will do checks to authenticate
+    the user
+    after logging in the user will have an updated datetime where it will store lastActivity(which is the login)
+
+Password Vault:
+    The user will be asked on how long and is their password
+    The user will be asked on how many symbols are on their password
+    finally the user will be asked on how random would be their passwords case sensitivity
+    Finally it will be saved on to a txt file for which they will be asked to name the file
+
+CLI Calculator:
+    Basic Calculator
+    Figure out the exact way to do an equivalent of eval function from javascript
+
+Minigames:
+    Random Guessing Number
+    Battleship
+    Hangman(BUT FIGURE OUT HOW TO DISPLAY THE FUCKING CHARACTER YEA?!)
+    Tic Tac Toe
+    Rock Papers Scissors
+
+String Manipulations???:
+    just a slug generator lmao
+
+
+architecture
+    /auth
+    /db
+    /games
+    /ui
+    /calc
+    /str_manip
+    main.py
