@@ -1,5 +1,7 @@
+from ui.ui import loginMenu, registerMenu
+
 def main():
-    pass
+    loginMenu()
 
 if __name__ == "__main__":
     main()

@@ -1,14 +1,37 @@
-def mainMenu():
-    pass
+from auth.auth import login, register
+from utils import clear
+
+def mainMenu(authStatus):
+    if authStatus:
+        print("Hello Welcome to the CLI Multi App!")
+        print("1. Create a secure password")
+        print("2. Use our CLI based Calculator")
+        print("3. Play Our Games!!")
+        print("4. SLUG")
+        print("5. Exit")
+        print("-------------------------------------")
+    else:
+        print("1. Login")
+        print("2. Register")
+        print("3. Exit")
+        print("-------------------------------------")
 
 def loginMenu():
-    pass
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+    return login(username, password)    
 
-def createUserMenu():
-    pass
+def registerMenu():
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+    return register(username, password)
 
 def gamesMenu():
-    pass
+    print("1. Random Guessing Number")
+    print("2. Battleship")
+    print("3. Hangman")
+    print("4. Tic Tac Toe")
+    print("5. Rock Paper Scissors")
 
 def hangManGame():
     pass

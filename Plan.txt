@@ -1,12 +1,12 @@
 Features:
-    - User Login and Datetime Logs
+    - User Login and Datetime Logs*
     - Password Vault and Pseudo-Database
     - CLI Calculator
     - Minigames!!!!
     - String Manipulation App
 
 
-User Login and Datetime Logs:
+User Login and Datetime Logs: 
     Basic Authentication will be used that will be stored on a pseduo-database
     the pseudo database will be stored as a JSON with the following Object set
     {
