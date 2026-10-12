@@ -2,6 +2,7 @@ from ui.ui import mainMenu, loginMenu, registerMenu, passwordMenu
 from utils import clear
 from password.password import createRandomPassword, randomizePassword
 
+
 def main():
     authStatus = False
     while True:

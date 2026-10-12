@@ -1,5 +1,6 @@
 from auth.auth import login, register
 from utils import clear
+from getpass import getpass
 
 def mainMenu(authStatus):
     if authStatus:
@@ -18,12 +19,12 @@ def mainMenu(authStatus):
 
 def loginMenu():
     username = input("Enter your username: ")
-    password = input("Enter your password: ")
+    password = getpass("Enter your password: ")
     return login(username, password)    
 
 def registerMenu():
     username = input("Enter your username: ")
-    password = input("Enter your password: ")
+    password = getpass("Enter your password: ")
     return register(username, password)
 
 def gamesMenu():
@@ -36,7 +37,7 @@ def gamesMenu():
 def passwordMenu():
     print("1. Create a new random password")
     print("2. Randomize a password")
-    
+
 
 def hangManGame():
     pass

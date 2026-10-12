@@ -1,7 +1,7 @@
 Features:
     - User Login and Datetime Logs /
-    - Password Vault and Pseudo-Database *
-    - CLI Calculator
+    - Password Vault and Pseudo-Database /
+    - CLI Calculator *
     - Minigames!!!!
     - String Manipulation App
 

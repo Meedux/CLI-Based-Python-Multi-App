@@ -1,6 +1,7 @@
 from random import randrange, sample, choice, random
 from utils import clear
 import string
+from getpass import getpass
 
 def createRandomPassword():
     text = ""
@@ -32,7 +33,7 @@ def createRandomPassword():
     
 
 def randomizePassword():
-    text = input("Type in your existing password here: ")
+    text = getpass("Type in your existing password here: ")
     extra = string.digits + string.punctuation 
     res = []
 
