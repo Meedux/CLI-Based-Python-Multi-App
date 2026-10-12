@@ -1,7 +1,7 @@
 from ui.ui import mainMenu, loginMenu, registerMenu, passwordMenu
 from utils import clear
 from password.password import createRandomPassword, randomizePassword
-
+from calc.calc import calculate
 
 def main():
     authStatus = False
@@ -27,7 +27,9 @@ def main():
                             clear()
 
                 case '2':
-                    pass
+                    clear()
+                    calculate()
+                    clear()
                 case '3':
                     pass
                 case '4':
@@ -37,7 +39,8 @@ def main():
                     clear()
                     break
                 case _:
-                    pass
+                    print("Invalid Input! Try again")
+                    clear()
         else: 
             match choice:
                 case '1':
