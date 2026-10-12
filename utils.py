@@ -15,3 +15,8 @@ def updateDatabase(users = []):
         json.dump(users, file, ensure_ascii=False, indent=4)
         file.truncate()
 
+def createRandomPassword():
+    pass
+
+def randomizePassword():
+    pass

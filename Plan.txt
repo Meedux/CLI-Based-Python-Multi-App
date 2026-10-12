@@ -1,6 +1,6 @@
 Features:
-    - User Login and Datetime Logs*
-    - Password Vault and Pseudo-Database
+    - User Login and Datetime Logs /
+    - Password Vault and Pseudo-Database *
     - CLI Calculator
     - Minigames!!!!
     - String Manipulation App
@@ -23,6 +23,8 @@ Password Vault:
     The user will be asked on how many symbols are on their password
     finally the user will be asked on how random would be their passwords case sensitivity
     Finally it will be saved on to a txt file for which they will be asked to name the file
+
+    Alternatively, if the user has an existing password then the program will ask for his password and randomize it based on his condition
 
 CLI Calculator:
     Basic Calculator

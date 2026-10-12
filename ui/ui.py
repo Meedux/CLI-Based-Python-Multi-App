@@ -33,6 +33,11 @@ def gamesMenu():
     print("4. Tic Tac Toe")
     print("5. Rock Paper Scissors")
 
+def passwordMenu():
+    print("1. Create a new random password")
+    print("2. Randomize a password")
+    
+
 def hangManGame():
     pass
 
